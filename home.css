@@ -1,0 +1,134 @@
+#container
+{
+margin: 0 auto;
+width: 1100px;
+background:#FFFFFF;
+-webkit-border-radius:10px 10px 10px;
+}
+
+#header
+{
+text-align:center;
+background:#FF333C;
+padding:10px;
+color:#FFFFFF;
+
+
+}
+#header h1 
+{
+margin:0 auto;
+}
+
+#navigation ul
+{
+
+margin:0;
+padding:0;
+}
+
+#navMenu ul li
+{
+
+list-style-type:none;
+display:inline;
+}
+
+#navMenu li a
+{
+display:block;
+float:left;
+padding:15px 60px;
+background:#FF333C;
+text-decoration:none;
+border-right:1px solid#fff;
+color:white;
+-webkit-border-radius:30px 30px 30px;
+
+}
+
+#navMenu li a:hover
+{
+background:#FFFFFF;
+color:black;
+}
+
+#content
+{
+
+margin:auto;
+padding:15px;
+left:250px;
+}
+
+
+
+
+#footer
+{
+background:#FF333C;
+text-align:center;
+padding:50px;
+height:1%;
+color:white;
+}
+
+#container1
+{
+
+    background-color:#FF333C;
+
+}
+
+/**/
+#marque
+{
+     position:relative; 
+	down:150px;
+	
+}
+
+#navMenu
+{
+margin:0;
+padding:0;
+}
+
+#navMenu ul
+{
+margin:10;
+padding:0;
+}
+
+#navMenu li
+{
+
+list-style:none;
+float:left;
+position:relative;
+
+}
+
+#navMenu ul li a
+{
+text-align:center;
+text-decoration:none;
+
+
+
+}
+
+#navMenu ul ul{
+position:absolute;
+visibility:hidden;
+top:47.5px;
+}
+
+#navMenu ul li:hover ul
+{
+visibility:visible;
+top: 49px; 
+ z-index: 1;
+}
+
+
